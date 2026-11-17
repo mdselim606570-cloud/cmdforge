@@ -1,0 +1,12 @@
+{
+  "name": "cmdforge",
+  "private": true,
+  "scripts": {
+    "format": "f() { prettier --write \"${@:-cmdforge/json/**/*.json}\"; }; f",
+    "format:check": "f() { prettier --check \"${@:-cmdforge/json/**/*.json}\"; }; f"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.0",
+    "prettier-plugin-multiline-arrays": "^4.1.4"
+  }
+}

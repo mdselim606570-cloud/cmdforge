@@ -1,0 +1,11 @@
+[workspace]
+members = [
+  "completion-metadata",
+  "cmdforge",
+]
+resolver = "2"
+
+[workspace.package]
+authors = ["Cognix Team <dev@khulnasoft.com>"]
+license = "MIT"
+publish = false
