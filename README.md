@@ -59,6 +59,22 @@ Options are therefore matched by the `OptionOverrides::name` field and positiona
 At the time of writing, _only_ `template` is supported.
 Others will need to be added as needed.
 
+## Completion Screenshots
+
+Completions in a Cognix session, using the `aws` spec and its generator.
+
+`aws --region` — AWS regions offered as static suggestions:
+
+![aws --region completions](.github/screenshots/aws-region-completions.png)
+
+`aws --profile` — profiles resolved from `~/.aws/config` and `~/.aws/credentials` by the `aws` generator, each labeled with its source:
+
+![aws --profile completions](.github/screenshots/aws-profile-completions.png)
+
+`aws --output` — output formats:
+
+![aws --output completions](.github/screenshots/aws-output-completions.png)
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details. Many of the signatures were adapted from Fig (https://github.com/withfig/autocomplete), which is also licensed under the MIT License.
